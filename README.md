@@ -7,32 +7,26 @@
 
 ## 📖 About
 
-**PaperJuice** 是一个整理顶会论文的仓库：  
-- 🏆 来源：CVPR / ICCV / ECCV / NeurIPS / ICLR 等顶级会议  
-- 🗂️ 格式：以主题分类（+子分类）组织  
-- 🧃 宗旨：像榨果汁一样，把纷繁复杂的论文「榨」成清晰的知识分类  
+**PaperJuice** is an open-source repository for organizing top-tier conference papers:
 
-每个会议的论文会单独放在对应页面，例如：  
-- [test](./test.md)  
-- [ICCV 2025](./ICCV2025.md)  
-- [NeurIPS 2024](./NeurIPS2024.md)  
+- 🏆 Top Venues: CVPR, ICCV, ECCV, NeurIPS, ICLR, and more
+- 🗂️ Smart Categorization: Each paper is filed under its most relevant category, with secondary topics noted
+- 🧃 Core Idea: Skip keyword searches—leverage LLM-powered classification to quickly find papers in your area of interest
 
 ---
 
 ## 🗂️ Usage
 
-点击进入对应会议页面，即可浏览论文目录。  
-目录按主题分类，每个主题下包含若干论文条目。  
+Navigate to a conference page to browse its categorized paper list.  
+Papers are grouped by primary research theme, with each section containing multiple entries.
 
-例子：  
+Each conference has its own dedicated page:  
+- [CVPR 2025 (610/2878)](./cvpr2025.md) 🔄 *Updating...*
 
-## 目录
+## 📋 Structure Example
 
 - [Category A](#category-a)
-- [Category B](#category-b)
-
 ---
-
 ## Category A
 
 ### [Paper Title 1]  
@@ -40,31 +34,23 @@ _Sub domains: Keyword1, Keyword2, Keyword3_
 
 ---
 
-## Category B
+## 🧠 Notes
 
-### [Paper Title 2]  
-_Sub domains: Keyword1, Keyword2_  
+- 📌 Paper topics and subdomains are automatically categorized using the **Qwen3 LLM**  
+- 🛠️ Categories are manually reviewed and refined where needed for accuracy  
+- 🎯 Our goal: deliver a clearer, more intuitive way to navigate cutting-edge research  
 
-### [Paper Title 3]  
-_Sub domains: Keyword1, Keyword2, Keyword3_  
-
----
-
-
-## 🧠 分类说明
-
-- 📌 本仓库的论文主题与子领域分类由 **Qwen3 LLM** 进行自动化整理  
-- 🛠️ 在部分情况下，分类会进行人工校正与优化  
-- 🎯 目标是提供一个更清晰、直观的论文导航体验
-  
-欢迎 PR & Issues：  
-- 📝 补充/更新论文  
-- 📚 添加新分类  
-- 🚀 优化目录结构  
+We welcome your contributions! Feel free to open a **PR** or **Issue** for:  
+- 📝 Corrections (e.g., misclassifications or inaccuracies)  
+- 📚 Suggesting new categories or subdomains  
+- 🚀 Improving the overall directory structure
 
 ---
 
-## 🥤 Acknowledgement
+## 🥤 Acknowledgements
+
+- Paper metadata sourced from [PaperCopilot/paperlists](https://github.com/papercopilot/paperlists)  
+- Category labels generated using the [Qwen3](https://github.com/QwenLM/Qwen3) model by Alibaba Cloud
 
 PaperJuice is academic juice.  
 愿你在这里找到灵感，  
