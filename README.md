@@ -21,7 +21,7 @@ Navigate to a conference page to browse its categorized paper list.
 Papers are grouped by primary research theme, with each section containing multiple entries.
 
 Each conference has its own dedicated page:  
-- [CVPR 2025 (610/2878)](./cvpr2025.md) 🔄 *Updating...*
+- [CVPR 2025 ](./cvpr2025.md) 🔄 *Update completed, pending review and corrections.*
 
 ## 📋 Structure Example
 
